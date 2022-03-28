@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "partyrecipes:cofeflour"
+      }
+    ],
+    "result": {
+      "item": "with_thursday:usa_cofe",
+      "count": 1
+    }
+  }

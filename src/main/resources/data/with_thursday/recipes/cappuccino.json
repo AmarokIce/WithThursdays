@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+      {
+        "item": "partyrecipes:finesugar"
+      },
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "partyrecipes:cofeflour"
+      },
+      {
+        "item": "partyrecipes:cofeflour"
+      },
+      {
+        "item": "minecraft:milk_bucket"
+      }
+    ],
+    "result": {
+      "item": "with_thursday:cappuccino",
+      "count": 1
+    }
+  }

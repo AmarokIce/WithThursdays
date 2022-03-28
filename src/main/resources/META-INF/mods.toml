@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="AFL-3.0"
+[[mods]]
+modId="with_thursday"
+version="${file.jarVersion}"
+displayName="with_thursday"
+logoFile="with_thursday.png"
+credits="Someoneice"
+authors="Someoneice"
+description='''
+“那位白发苍苍的老绅士满脸笑容的看着你，见他一手拄着拐杖，一手端着一盆香喷喷的炸鸡，即便什么也没有说，你也能感受到他的热情，热情的邀请你进店点一些炸鸡。你们四目相对，你知道你已经输了，你的钱包在劫难逃。”
+'''
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[37,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1,1.18)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="vanillarecipe"
+    mandatory=false
+    versionRange="1.0.0"
+    ordering="AFTER"
+    side="BOTH"
+
+ [[dependencies.examplemod]]
+    modId="partyrecipes"
+    mandatory=false
+    versionRange="1.0.0"
+    ordering="AFTER"
+    side="BOTH"

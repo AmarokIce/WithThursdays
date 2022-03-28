@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+      {
+        "item": "partyrecipes:finesugar"
+      },
+      {
+        "item": "with_thursday:cappuccino"
+      },
+      {
+        "item": "partyrecipes:cofeflour"
+      },
+      {
+        "item": "vanillarecipe:icecream"
+      }
+    ],
+    "result": {
+      "item": "with_thursday:ice_cream_float",
+      "count": 1
+    }
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+      {
+        "item": "partyrecipes:finesugar"
+      },
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "item": "vanillarecipe:chocolate"
+      }
+    ],
+    "result": {
+      "item": "with_thursday:mocha",
+      "count": 1
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+      {
+        "item": "with_thursday:knife"
+      },
+      {
+        "item": "with_thursday:chicken_brast"
+      }
+    ],
+    "result": {
+      "item": "with_thursday:diced_chicken",
+      "count": 6
+    }
+  }
