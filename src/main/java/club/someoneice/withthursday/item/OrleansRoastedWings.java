@@ -1,4 +1,4 @@
-package club.someoneice.withthursday.Item;
+package club.someoneice.withthursday.item;
 
 import club.someoneice.withthursday.WithThursday;
 import net.minecraft.ChatFormatting;

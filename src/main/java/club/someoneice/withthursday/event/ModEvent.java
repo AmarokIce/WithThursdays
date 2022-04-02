@@ -1,6 +1,6 @@
-package club.someoneice.withthursday.Event;
+package club.someoneice.withthursday.event;
 
-import club.someoneice.withthursday.Init.ItemRegister;
+import club.someoneice.withthursday.init.ItemRegister;
 import club.someoneice.withthursday.WithThursday;
 import net.minecraft.world.entity.animal.Chicken;
 import net.minecraft.world.entity.item.ItemEntity;

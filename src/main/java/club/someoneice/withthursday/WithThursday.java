@@ -1,10 +1,9 @@
 package club.someoneice.withthursday;
 
-import club.someoneice.withthursday.Event.ModEvent;
-import club.someoneice.withthursday.Init.ItemRegister;
+import club.someoneice.withthursday.event.ModEvent;
+import club.someoneice.withthursday.init.ItemRegister;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;

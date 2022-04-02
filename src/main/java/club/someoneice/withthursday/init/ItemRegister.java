@@ -1,4 +1,4 @@
-package club.someoneice.withthursday.Init;
+package club.someoneice.withthursday.init;
 
 import club.someoneice.withthursday.WithThursday;
 import net.minecraft.world.item.Item;

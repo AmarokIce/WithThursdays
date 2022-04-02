@@ -1,15 +1,8 @@
-package club.someoneice.withthursday.Item;
+package club.someoneice.withthursday.item;
 
 import club.someoneice.withthursday.WithThursday;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.EquipmentSlot;
-
-import com.google.common.collect.Multimap;
-import com.google.common.collect.ImmutableMultimap;
 
 //TODO - I will create a tab for this.
 public class Knife extends Item {

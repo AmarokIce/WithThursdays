@@ -1,11 +1,11 @@
-package club.someoneice.withthursday.Init;
+package club.someoneice.withthursday.init;
 
-import club.someoneice.withthursday.Item.OrleansRoastedWings;
-import club.someoneice.withthursday.Tool.DrinkItem;
+import club.someoneice.withthursday.item.OrleansRoastedWings;
+import club.someoneice.withthursday.tool.DrinkItem;
 import net.minecraft.world.food.FoodProperties.Builder;
 import net.minecraft.world.food.FoodProperties;
 import club.someoneice.withthursday.WithThursday;
-import club.someoneice.withthursday.Item.Knife;
+import club.someoneice.withthursday.item.Knife;
 import net.minecraft.world.item.Item.Properties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.UseAnim;

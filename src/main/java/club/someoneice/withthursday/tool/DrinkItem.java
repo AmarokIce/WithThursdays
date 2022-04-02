@@ -1,4 +1,4 @@
-package club.someoneice.withthursday.Tool;
+package club.someoneice.withthursday.tool;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
