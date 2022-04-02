@@ -19,20 +19,21 @@ public class ModEvent {
         if (event.getEntityLiving() == null) {
             return;
         }
-/*
+
         if (event.getEntityLiving() instanceof Chicken) {
-            this.dropItem(event, ItemRegister.ChickenWings.get(),  ItemRegister.CookedChickenWings.get());
-            this.dropItem(event, ItemRegister.ChickenWings.get(),  ItemRegister.CookedChickenWings.get());
+            this.dropItem(event, ItemRegister.ChickenWings.get(), ItemRegister.CookedChickenWings.get());
+            this.dropItem(event, ItemRegister.ChickenWings.get(), ItemRegister.CookedChickenWings.get());
             return;
         }
     }
 
     public void dropItem(LivingDropsEvent event, Item meat, Item cook) {
         if (event.getEntityLiving().isOnFire()) {
-            event.getDrops().add(new ItemEntity(event.getEntityLiving().level, event.getEntityLiving().getX(), event.getEntityLiving().getY(), event.getEntityLiving().getZ(), new ItemStack(cook)));
+            event.getDrops().add(new ItemEntity(event.getEntityLiving().level, event.getEntityLiving().getX(),
+                    event.getEntityLiving().getY(), event.getEntityLiving().getZ(), new ItemStack(cook)));
         } else {
-            event.getDrops().add(new ItemEntity(event.getEntityLiving().level, event.getEntityLiving().getX(), event.getEntityLiving().getY(), event.getEntityLiving().getZ(), new ItemStack(meat)));
-        }*/
+            event.getDrops().add(new ItemEntity(event.getEntityLiving().level, event.getEntityLiving().getX(),
+                    event.getEntityLiving().getY(), event.getEntityLiving().getZ(), new ItemStack(meat)));
+        }
     }
 }
-

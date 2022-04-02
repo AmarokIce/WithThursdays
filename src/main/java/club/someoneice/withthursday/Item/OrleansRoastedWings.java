@@ -14,14 +14,15 @@ import javax.annotation.Nullable;
 import java.util.List;
 
 public class OrleansRoastedWings extends Item {
-        private static final FoodProperties food = ((new FoodProperties.Builder()).saturationMod(0).nutrition(0).alwaysEat().build());
+    private static final FoodProperties food = ((new FoodProperties.Builder()).saturationMod(6).nutrition(4).alwaysEat()
+            .build());
 
-        public OrleansRoastedWings() {
-            super(new Item.Properties().tab(WithThursday.TAB).food(food));
-        }
+    public OrleansRoastedWings() {
+        super(new Item.Properties().tab(WithThursday.TAB).food(food));
+    }
 
-        @Override
-        public void appendHoverText(ItemStack items, @Nullable Level world, List<Component> list, TooltipFlag data) {
-            list.add(new TranslatableComponent("info.wine.food").withStyle(ChatFormatting.GRAY));
-        }
+    @Override
+    public void appendHoverText(ItemStack items, @Nullable Level world, List<Component> list, TooltipFlag data) {
+        list.add(new TranslatableComponent("info.wine.food").withStyle(ChatFormatting.GRAY));
+    }
 }
