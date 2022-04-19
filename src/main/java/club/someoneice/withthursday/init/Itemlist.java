@@ -8,7 +8,6 @@ import club.someoneice.withthursday.WithThursday;
 import club.someoneice.withthursday.item.Knife;
 import net.minecraft.world.item.Item.Properties;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.UseAnim;
 
 public class Itemlist {
     public static Item item() {
@@ -53,7 +52,7 @@ public class Itemlist {
             Builder.alwaysEat();
         }
         Properties.food(Builder.build());
-        return new DrinkItem(Properties, UseAnim.DRINK);
+        return new DrinkItem(Properties);
     }
 
     public static Item Knife() {

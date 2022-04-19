@@ -22,7 +22,7 @@ public class ItemRegister {
     public static final RegistryObject<Item> Orleans = register(Itemlist::item, "orleans");
 
     // food.
-    // Chicken
+    /* Chicken  */
 
     public static final RegistryObject<Item> ChickenWings = register(() -> Itemlist.food(2, 2, true, false, true), "chicken_wings");
     public static final RegistryObject<Item> CookedChickenWings = register(() -> Itemlist.food(6, 2, true, false, true), "cooked_chicken_wings");
@@ -31,7 +31,12 @@ public class ItemRegister {
     public static final RegistryObject<Item> DicedChicken = register(() -> Itemlist.food(1, 0, true, true, true), "diced_chicken");
     public static final RegistryObject<Item> CookedDicedChicken = register(() -> Itemlist.food(2, 1, true, true, true), "cooked_diced_chicken");
 
-    // Snack
+    // restaurant 2 Update
+    public static final RegistryObject<Item> OriginalRecipe = register(() -> Itemlist.food(6, 6, true, false, true), "original_recipe");
+    public static final RegistryObject<Item> ChickBucket = register(() -> Itemlist.food(18,20,false,false,true), "chicken_bucket");
+
+
+    /* Snack */
     public static final RegistryObject<Item> OrleansRoastedWings = register(Itemlist::OrleansRoastedWings, "orleans_roasted_wings");
     public static final RegistryObject<Item> PopcornChicken = register(() -> Itemlist.food(7, 5, true, false, true), "chicken_pop");
     public static final RegistryObject<Item> ChickenNugget = register(() -> Itemlist.food(4, 2, true, false, true), "chicken_nugget");
@@ -41,6 +46,19 @@ public class ItemRegister {
     public static final RegistryObject<Item> FrenchFries = register(() -> Itemlist.food(6, 2, true, false, true), "french_fries");
     public static final RegistryObject<Item> MashedPotato = register(() -> Itemlist.food(6, 2, true, false, true), "mashed_potato");
 
+    // restaurant 2 Update
+    public static final RegistryObject<Item> BeatenEggs = register(() -> Itemlist.Drink(0, 1, false, false, true), "beaten_eggs");
+    public static final RegistryObject<Item> SunEgg = register(() -> Itemlist.food(2, 2, false, true, true), "sun_egg");
+    public static final RegistryObject<Item> PaNiNiBread = register(() -> Itemlist.food(2, 2, false, true, true), "pnn_bread");
+    public static final RegistryObject<Item> PotatoPie = register(() -> Itemlist.food(6, 8, false, true, true), "potato_pie");
+    public static final RegistryObject<Item> ThuringiaSausage = register(() -> Itemlist.food(2, 2, false, true, true), "thuringia_sausage");
+    public static final RegistryObject<Item> FleshBonePlus = register(() -> Itemlist.food(3, 2, true, true, true), "flesh_bone");
+
+
+    /* WithPack */
+    public static final RegistryObject<Item> BreakfastPack = register(() -> Itemlist.food(12, 16, false, false, true), "breakfast");
+    public static final RegistryObject<Item> Sundae = register(() -> Itemlist.Drink(3, 3,false, true, false), "sundae");
+    
     // PaNini
     public static final RegistryObject<Item> BaconPaNini = register(() -> Itemlist.food(9, 7, false, false, true), "bacon_panini");
     public static final RegistryObject<Item> ChickenPaNini = register(() -> Itemlist.food(9, 7, false, false, true), "chicken_panini");

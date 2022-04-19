@@ -11,28 +11,12 @@ public class Knife extends Item {
     }
 
     @Override
-    public boolean hasCraftingRemainingItem() {
-        return true;
-    }
-
-    @Override
     public ItemStack getContainerItem(ItemStack itemstack) {
-        ItemStack retval = new ItemStack(this);
-        retval.setDamageValue(itemstack.getDamageValue() + 1);
-        if (retval.getDamageValue() >= retval.getMaxDamage()) {
+        ItemStack Knife = new ItemStack(this);
+        Knife.setDamageValue(itemstack.getDamageValue() + 1);
+        if (Knife.getDamageValue() >= Knife.getMaxDamage()) {
             return ItemStack.EMPTY;
         }
-        return retval;
+        return Knife;
     }
-
-    @Override
-    public boolean isRepairable(ItemStack itemstack) {
-        return false;
-    }
-
-    @Override
-    public int getUseDuration(ItemStack itemstack) {
-        return 0;
-    }
-
 }

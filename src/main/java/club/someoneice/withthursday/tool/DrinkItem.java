@@ -8,17 +8,17 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 
-public class DrinkItem extends Item {
-    UseAnim type;
+import static net.minecraft.world.item.UseAnim.DRINK;
 
-    public DrinkItem(Item.Properties Properties, UseAnim type) {
+public class DrinkItem extends Item {
+
+    public DrinkItem(Item.Properties Properties) {
         super(Properties);
-        this.type = type;
     }
 
     @Override
     public UseAnim getUseAnimation(ItemStack item) {
-        return this.type;
+        return DRINK;
     }
 
     @Override
