@@ -23,7 +23,7 @@ public class ItemRegister {
     public static final RegistryObject<Item> BeatenEggs = register(() -> Itemlist.Drink(0, 1, false, false, true), "beaten_eggs");
     public static final RegistryObject<Item> Cheese = register(() -> Itemlist.food(2, 3, false, false, true), "cheese");
     public static final RegistryObject<Item> CoffeeFlour = register(Itemlist::item, "coffee_flour");
-    public static final RegistryObject<Item> Chocolate = register(Itemlist::item, "chocolate_bar");
+    public static final RegistryObject<Item> Chocolate = register(() -> Itemlist.food(2, 3, false, false, true), "chocolate_bar");
 
 
     // food.

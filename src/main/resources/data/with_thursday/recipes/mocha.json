@@ -12,7 +12,7 @@
         "tag": "forge:chocolatebar"
       },
       {
-        "tag": "forge:coffee_flour"
+        "item": "with_thursday:coffee_flour"
       }
     ],
     "result": {

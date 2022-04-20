@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "vanillarecipe:poached_egg",
     "with_thursday:sun_egg"
   ]
 }

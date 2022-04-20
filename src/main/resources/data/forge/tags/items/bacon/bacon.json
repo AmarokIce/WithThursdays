@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "vanillarecipe:bacon",
     "with_thursday:bacon"
   ]
 }
