@@ -9,7 +9,10 @@
         "item": "minecraft:glass_bottle"
       },
       {
-        "tags": "forge:chocolate"
+        "tag": "forge:chocolatebar"
+      },
+      {
+        "tag": "forge:coffee_flour"
       }
     ],
     "result": {

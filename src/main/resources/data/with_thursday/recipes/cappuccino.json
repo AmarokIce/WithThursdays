@@ -9,10 +9,10 @@
         "item": "minecraft:glass_bottle"
       },
       {
-        "tags": "forge:coffee_flour"
+        "tag": "forge:coffee_flour"
       },
       {
-        "tags": "forge:coffee_flour"
+        "tag": "forge:coffee_flour"
       },
       {
         "item": "minecraft:milk_bucket"

@@ -6,13 +6,16 @@
         "item": "with_thursday:knife"
       },
       {
-        "item": "minecraft:bread"
+        "item": "with_thursday:pnn_bread"
       },
       {
         "tag": "forge:bacon"
       },
       {
-        "item": "minecraft:egg"
+        "tag": "forge:fried_egg"
+      },
+      {
+        "tag": "forge:cheese"
       }
     ],
     "result": {
