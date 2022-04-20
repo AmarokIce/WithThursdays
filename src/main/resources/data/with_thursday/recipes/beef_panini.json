@@ -12,10 +12,10 @@
         "item": "minecraft:cooked_beef"
       },
       {
-        "tag": "forge:fried_egg"
+        "item": "with_thursday:sun_egg"
       },
       {
-        "tag": "forge:cheese"
+        "item": "with_thursday:cheese"
       }
     ],
     "result": {

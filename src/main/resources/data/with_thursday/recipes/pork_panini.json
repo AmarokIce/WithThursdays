@@ -12,10 +12,10 @@
         "item": "minecraft:cooked_porkchop"
       },
       {
-        "tag": "forge:fried_egg"
+        "item": "with_thursday:cheese"
       },
       {
-        "tag": "forge:cheese"
+        "item": "with_thursday:cheese"
       }
     ],
     "result": {

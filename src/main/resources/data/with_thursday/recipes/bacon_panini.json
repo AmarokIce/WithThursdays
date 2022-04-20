@@ -9,13 +9,13 @@
         "item": "with_thursday:pnn_bread"
       },
       {
-        "tag": "forge:bacon"
+        "item": "with_thursday:bacon"
       },
       {
-        "tag": "forge:fried_egg"
+        "item": "with_thursday:sun_egg"
       },
       {
-        "tag": "forge:cheese"
+        "item": "with_thursday:cheese"
       }
     ],
     "result": {

@@ -9,16 +9,16 @@
         "item": "minecraft:bread"
       },
       {
-        "tag": "forge:bacon"
+        "item": "with_thursday:bacon"
       },
       {
         "item": "with_thursday:cooked_chicken_breast"
       },
       {
-        "tag": "forge:cheese"
+        "item": "with_thursday:cheese"
       },
       {
-        "tag": "forge:fried_egg"
+        "item": "with_thursday:sun_egg"
       }
     ],
     "result": {

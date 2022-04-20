@@ -23,7 +23,6 @@ public class ModEvent {
         if (event.getEntityLiving() instanceof Chicken) {
             this.dropItem(event, ItemRegister.ChickenWings.get(), ItemRegister.CookedChickenWings.get());
             this.dropItem(event, ItemRegister.ChickenWings.get(), ItemRegister.CookedChickenWings.get());
-            return;
         }
     }
 
