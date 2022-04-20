@@ -9,7 +9,7 @@
         "item": "with_thursday:cappuccino"
       },
       {
-        "item": "partyrecipes:cofeflour"
+        "tag": "forge:cofeflour"
       },
       {
         "item": "vanillarecipe:icecream"

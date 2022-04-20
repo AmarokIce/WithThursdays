@@ -15,7 +15,7 @@
         "item": "minecraft:glass_bottle"
       },
       {
-        "item": "with_thursday:coffee_flour"
+        "tag": "forge:coffee_flour"
       }
     ],
     "result": {
