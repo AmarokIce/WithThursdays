@@ -23,7 +23,7 @@ public class ItemRegister {
     public static final RegistryObject<Item> BeatenEggs = register(() -> Itemlist.Drink(0, 1, false, false, true), "beaten_eggs");
     public static final RegistryObject<Item> Cheese = register(() -> Itemlist.food(2, 3, false, false, true), "cheese");
     public static final RegistryObject<Item> CoffeeFlour = register(Itemlist::item, "coffee_flour");
-    public static final RegistryObject<Item> Chocolate = register(() -> Itemlist.food(2, 3, false, false, true), "chocolate_bar.json");
+    public static final RegistryObject<Item> Chocolate = register(() -> Itemlist.food(2, 3, false, false, true), "chocolate_bar");
 
 
     // food.
@@ -57,7 +57,7 @@ public class ItemRegister {
     public static final RegistryObject<Item> PotatoPie = register(() -> Itemlist.food(6, 8, false, true, true), "potato_pie");
     public static final RegistryObject<Item> ThuringiaSausage = register(() -> Itemlist.food(2, 2, false, true, true), "thuringia_sausage");
     public static final RegistryObject<Item> FleshBonePlus = register(() -> Itemlist.food(3, 2, true, true, true), "flesh_bone");
-    public static final RegistryObject<Item> Bacon = register(() -> Itemlist.food(3, 2, true, true, true), "bacon.json");
+    public static final RegistryObject<Item> Bacon = register(() -> Itemlist.food(3, 2, true, true, true), "bacon");
 
 
     /* WithPack */

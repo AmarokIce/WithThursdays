@@ -17,7 +17,7 @@ import javax.annotation.Nonnull;
 @Mod("with_thursday")
 public class WithThursday {
     public static final String MODID = "with_thursday";
-    public static final String Version = "t1";
+    public static final String Version = "r2";
     public static final Logger LOGGER = LogManager.getLogger("[with_thursday]");
 
     public static final CreativeModeTab TAB = new CreativeModeTab("WithThursday") {
