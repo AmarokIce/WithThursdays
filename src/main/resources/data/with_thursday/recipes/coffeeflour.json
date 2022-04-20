@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "conditions":
+  [
+    {
+      "type": "forge:not",
+      "value":
+      {
+        "type": "forge:mod_loaded", "modid": "partyrecipes"
+      }
+    }
+  ],
+  "ingredients":
+  [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "with_thursday:coffee_flour",
+    "count": 2
+  }
+}

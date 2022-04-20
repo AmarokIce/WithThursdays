@@ -3,16 +3,16 @@
     "ingredients":
     [
       {
-        "item": "partyrecipes:finesugar"
+        "item": "minecraft:sugar"
       },
       {
         "item": "minecraft:glass_bottle"
       },
       {
-        "item": "partyrecipes:cofeflour"
+        "tags": "forge:coffee_flour"
       },
       {
-        "item": "partyrecipes:cofeflour"
+        "tags": "forge:coffee_flour"
       },
       {
         "item": "minecraft:milk_bucket"

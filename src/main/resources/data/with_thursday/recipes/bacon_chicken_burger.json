@@ -9,13 +9,13 @@
         "item": "minecraft:bread"
       },
       {
-        "item": "vanillarecipe:bacon"
+        "tag": "forge:bacon"
       },
       {
         "item": "with_thursday:cooked_chicken_breast"
       },
       {
-        "item": "vanillarecipe:cheese"
+        "tag": "forge:cheese"
       },
       {
         "item": "minecraft:egg"

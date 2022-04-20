@@ -20,6 +20,11 @@ public class ItemRegister {
     public static final RegistryObject<Item> knife = register(Itemlist::Knife, "knife");
     public static final RegistryObject<Item> crumbs = register(Itemlist::item, "crumbs");
     public static final RegistryObject<Item> Orleans = register(Itemlist::item, "orleans");
+    public static final RegistryObject<Item> BeatenEggs = register(() -> Itemlist.Drink(0, 1, false, false, true), "beaten_eggs");
+    public static final RegistryObject<Item> Cheese = register(() -> Itemlist.food(2, 3, false, false, true), "cheese");
+    public static final RegistryObject<Item> CoffeeFlour = register(Itemlist::item, "coffee_flour");
+    public static final RegistryObject<Item> Chocolate = register(Itemlist::item, "chocolate_bar");
+
 
     // food.
     /* Chicken  */
@@ -47,7 +52,6 @@ public class ItemRegister {
     public static final RegistryObject<Item> MashedPotato = register(() -> Itemlist.food(6, 2, true, false, true), "mashed_potato");
 
     // restaurant 2 Update
-    public static final RegistryObject<Item> BeatenEggs = register(() -> Itemlist.Drink(0, 1, false, false, true), "beaten_eggs");
     public static final RegistryObject<Item> SunEgg = register(() -> Itemlist.food(2, 2, false, true, true), "sun_egg");
     public static final RegistryObject<Item> PaNiNiBread = register(() -> Itemlist.food(2, 2, false, true, true), "pnn_bread");
     public static final RegistryObject<Item> PotatoPie = register(() -> Itemlist.food(6, 8, false, true, true), "potato_pie");

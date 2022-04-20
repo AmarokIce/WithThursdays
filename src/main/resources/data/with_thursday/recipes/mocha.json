@@ -3,13 +3,13 @@
     "ingredients":
     [
       {
-        "item": "partyrecipes:finesugar"
+        "item": "minecraft:sugar"
       },
       {
         "item": "minecraft:glass_bottle"
       },
       {
-        "item": "vanillarecipe:chocolate"
+        "tags": "forge:chocolate"
       }
     ],
     "result": {
