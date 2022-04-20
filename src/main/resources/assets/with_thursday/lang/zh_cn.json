@@ -38,6 +38,17 @@
   "item.with_thursday.milk_tea" : "奶茶（热）",
   "item.with_thursday.orleans" : "卡真风味调料",
 
+  "item.with_thursday.original_recipe" : "吮指原味鸡",
+  "item.with_thursday.chicken_bucket" : "鸡翅全家桶",
+  "item.with_thursday.beaten_eggs" : "生蛋液",
+  "item.with_thursday.sun_egg" : "太阳蛋",
+  "item.with_thursday.pnn_bread" : "帕尼尼面包",
+  "item.with_thursday.potato_pie" : "黄金薯饼",
+  "item.with_thursday.thuringia_sausage" : "图林根烤肠",
+  "item.with_thursday.flesh_bone" : "骨肉相连",
+  "item.with_thursday.bacon" : "培根",
+  "item.with_thursday.breakfast" : "早餐组合",
+  "item.with_thursday.sundae" : "圣代",
 
   "info.wine.food" : "是谁点了一位膘肥体壮的外卖小哥！？"
 }

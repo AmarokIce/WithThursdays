@@ -36,7 +36,20 @@
   "item.with_thursday.cappuccino" : "Cappuccino",
   "item.with_thursday.mocha" : "Mocha",
   "item.with_thursday.milk_tea" : "Milk Tea",
-  "item.with_thursday.orleans" : "Orleans seasoning",
+  "item.with_thursday.orleans" : "Orleans Seasoning",
+
+  "item.with_thursday.original_recipe" : "Original Recipe",
+  "item.with_thursday.chicken_bucket" : "Chicken Bucket",
+  "item.with_thursday.beaten_eggs" : "Beaten Eggs",
+  "item.with_thursday.sun_egg" : "Sun Egg",
+  "item.with_thursday.pnn_bread" : "PaNiNi Bread",
+  "item.with_thursday.potato_pie" : "Potato_Pie",
+  "item.with_thursday.thuringia_sausage" : "Thuringian Sausage",
+  "item.with_thursday.flesh_bone" : "Flesh&Bone",
+  "item.with_thursday.bacon" : "Bacon",
+  "item.with_thursday.breakfast" : "Breakfast Combo",
+  "item.with_thursday.sundae" : "Sundae",
+
 
   "info.wine.food" : "Who ordered a vigorous takeaway boy!?"
 

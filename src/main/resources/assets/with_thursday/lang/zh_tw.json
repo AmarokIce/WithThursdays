@@ -5,7 +5,7 @@
   "item.with_thursday.potato_chips" : "馬鈴薯條",
   "item.with_thursday.french_fries" : "炸薯條",
   "item.with_thursday.mashed_potato" : "土豆泥",
-  "item.with_thursday.orleans_roasted_wing" : "新奧爾良烤翅",
+  "item.with_thursday.orleans_roasted_wings" : "新奧爾良烤翅",
   "item.with_thursday.chicken_pop" : "勁爆雞米花",
   "item.with_thursday.chicken_nugget" : "上校雞塊",
   "item.with_thursday.spicy_squid" : "Q彈香辣魷魚",
@@ -37,6 +37,18 @@
   "item.with_thursday.mocha" : "摩卡",
   "item.with_thursday.milk_tea" : "奶茶(熱)",
   "item.with_thursday.orleans" : "卡真風味調料",
+
+  "item.with_thursday.original_recipe" : "吮指原味雞",
+  "item.with_thursday.chicken_bucket" : "雞翅全家桶",
+  "item.with_thursday.beaten_eggs" : "生蛋液",
+  "item.with_thursday.sun_egg" : "太陽蛋",
+  "item.with_thursday.pnn_bread" : "帕尼尼麵包",
+  "item.with_thursday.potato_pie" : "黃金薯餅",
+  "item.with_thursday.thuringia_sausage" : "圖林根烤腸",
+  "item.with_thursday.flesh_bone" : "骨肉相連",
+  "item.with_thursday.bacon" : "培根",
+  "item.with_thursday.breakfast" : "早茶",
+  "item.with_thursday.sundae" : "聖代",
 
 
   "info.wine.food" : "是誰訂購了一位膘肥體壯的外賣小哥！？"

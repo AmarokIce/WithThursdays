@@ -53,6 +53,7 @@ public class ItemRegister {
     public static final RegistryObject<Item> PotatoPie = register(() -> Itemlist.food(6, 8, false, true, true), "potato_pie");
     public static final RegistryObject<Item> ThuringiaSausage = register(() -> Itemlist.food(2, 2, false, true, true), "thuringia_sausage");
     public static final RegistryObject<Item> FleshBonePlus = register(() -> Itemlist.food(3, 2, true, true, true), "flesh_bone");
+    public static final RegistryObject<Item> Bacon = register(() -> Itemlist.food(3, 2, true, true, true), "bacon");
 
 
     /* WithPack */
