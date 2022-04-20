@@ -37,7 +37,7 @@ public class ItemRegister {
     public static final RegistryObject<Item> CookedDicedChicken = register(() -> Itemlist.food(2, 1, true, true, true), "cooked_diced_chicken");
 
     // restaurant 2 Update
-    public static final RegistryObject<Item> OriginalRecipe = register(() -> Itemlist.food(6, 6, true, false, true), "original_recipe");
+    public static final RegistryObject<Item> OriginalRecipe = register(() -> Itemlist.food(10, 16, true, false, true), "original_recipe");
     public static final RegistryObject<Item> ChickBucket = register(() -> Itemlist.food(18,20,false,false,true), "chicken_bucket");
 
 

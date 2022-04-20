@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "with_thursday:chicken_pop"
+    },
+    {
+      "item": "with_thursday:chicken_nugget"
+    },
+    {
+      "item": "with_thursday:orleans_roasted_wings"
+    },
+    {
+      "item": "with_thursday:original_recipe"
+    },
+    {
+      "item": "with_thursday:original_recipe"
+    }
+  ],
+  "result": {
+    "item": "with_thursday:chicken_bucket",
+    "count": 1
+  }
+}
