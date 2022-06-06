@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+      {
+        "item": "with_thursday:knife"
+      },
+      {
+        "item": "with_thursday:pnn_bread"
+      },
+      {
+        "item": "with_thursday:cooked_chicken_breast"
+      },
+      {
+        "item": "with_thursday:sun_egg"
+      },
+      {
+        "item": "with_thursday:cheese"
+      }
+    ],
+    "result": {
+      "item": "with_thursday:chicken_panini",
+      "count": 1
+    }
+  }

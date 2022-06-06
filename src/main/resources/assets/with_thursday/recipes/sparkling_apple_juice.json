@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "with_thursday:apple_juice"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "with_thursday:cola"
+    }
+  ],
+  "result": {
+    "item": "with_thursday:sparkling_apple_juice",
+    "count": 1
+  }
+}
