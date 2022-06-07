@@ -38,7 +38,7 @@ public class FoodItem extends ItemFood {
         this.probability = probability;
         this.returnItem = returnItem;
         this.maxUseDuration = useDuration;
-        this.setCreativeTab(Main.pineapple);
+        this.setCreativeTab(Main.WithThursday);
 
         ItemList.ITEM_LIST.add(this);
     }

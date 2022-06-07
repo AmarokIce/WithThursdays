@@ -8,7 +8,7 @@ public class ItemItems extends Item {
     public ItemItems(String name){
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
-        this.setCreativeTab(Main.pineapple);
+        this.setCreativeTab(Main.WithThursday);
 
         ItemList.ITEM_LIST.add(this);
     }

@@ -1,4 +1,4 @@
-itemGroup.WithThursday相約星期四
+itemGroup.WithThursday=相約星期四
 
 item.crumbs.name=麵包屑
 item.potato_chips.name=番薯條
@@ -6,7 +6,7 @@ item.french_fries.name=薯條
 item.mashed_potato.name=雞汁土豆泥
 item.orleans_roasted_wings.name=新奧爾良烤翅
 item.chicken_pop.name=勁爆雞米花
-item.chicken_nugget.name=上校雞塊
+item.chicken_nuggets.name=上校雞塊
 item.spicy_squid.name=4Q彈香辣魷魚
 item.corn_salad.name=玉米粒色拉
 item.knife.name=廚藝刀
@@ -42,14 +42,14 @@ item.beaten_eggs.name=生蛋液
 item.sun_egg.name=太陽蛋
 item.pnn_bread.name=帕尼尼麵包
 item.potato_pie.name=黃金薯餅
-item.thuringia.name=圖林根烤腸
+item.thuringia_sausage.name=圖林根烤腸
 item.flesh_bone.name=骨肉相連
 item.bacon.name=培根
 item.breakfast.name=早餐組合
 item.sundae.name=新地
 item.coffee_flour.name=咖啡粉
 item.chocolate.name=巧克力
-item.chees.name=芝士片
+item.cheese.name=芝士片
 item.nine_fruit_juic.name=九珍果汁
 item.grinde.name=研磨機
 item.fish_burge.name=香脆鱈魚堡

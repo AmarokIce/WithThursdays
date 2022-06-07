@@ -1,7 +1,7 @@
 package club.someoneice.with_thursday.itemtool;
 
-import club.someoneice.paster_fix.init.ItemList;
 import club.someoneice.with_thursday.Main;
+import club.someoneice.with_thursday.init.ItemList;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -12,7 +12,7 @@ public class Knife extends Item {
         this.setMaxStackSize(1);
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
-        this.setCreativeTab(Main.pineapple);
+        this.setCreativeTab(Main.WithThursday);
         this.setContainerItem(this);
 
         ItemList.ITEM_LIST.add(this);

@@ -14,8 +14,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.0'
-group = 'com.yourname.modid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'modid'
+group = 'club.someoneice.with_thursday' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'with_thursday'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -119,7 +119,7 @@ repositories {
 }
 
 dependencies {
-    compile "com.someoneice.paster_fix:paster_fix-0.1.0"
+    // compile "com.someoneice.paster_fix:paster_fix-0.1.0"
 }
 
 sourceSets {

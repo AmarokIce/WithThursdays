@@ -86,7 +86,7 @@ public class ItemList{
         foodChickenNuggets = new FoodItem("chicken_nuggets", 4, 1F, true, true);
         foodFrenchFries = new FoodItem("french_fries", 10, 0.5F, false, true);
         foodPotatoPie = new FoodItem("potato_pie", 8, 0.5F, false, true);
-        foodThuringian = new FoodItem("thur", 8, 0.8F, true, true);
+        foodThuringian = new FoodItem("thuringia_sausage", 8, 0.8F, true, true);
         foodFleshBone = new FoodItem("flesh_bone", 3, 0.3F, true, true);
         foodPopcornChicken = new FoodItem("chicken_pop", 6, 0.9F, true, true);
 

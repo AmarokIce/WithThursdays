@@ -1,7 +1,6 @@
 package club.someoneice.with_thursday.itemtool;
 
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
