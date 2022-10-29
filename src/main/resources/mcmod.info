@@ -1,0 +1,16 @@
+[
+{
+  "modid": "with_thursday",
+  "name": "with thursday",
+  "description": "with_thursday.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Someoneice"],
+  "credits": "Someoneice",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
