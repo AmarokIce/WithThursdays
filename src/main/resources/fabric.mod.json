@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "with_thursday",
+  "version": "${version}",
+
+  "name": "With Thursday",
+  "description": "“那位白发苍苍的老绅士满脸笑容的看着你，见他一手拄着拐杖，一手端着一盆香喷喷的炸鸡，即便什么也没有说，你也能感受到他的热情，热情的邀请你进店点一些炸鸡。你们四目相对，你知道你已经输了，你的钱包在劫难逃。”",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://www.mcmod.cn/class/5979.html/",
+    "sources": "https://github.com/AmarokIce/WithThursdays/"
+  },
+
+  "license": "AFL-3.0",
+  "icon": "assets/with_thursday/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "club.someoneice.with_thursday.ThursdayMainKt::init"
+    ]
+  },
+  "mixins": [
+    "thursday.mixin.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7",
+    "fabric": "*",
+    "fabric-language-kotlin": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

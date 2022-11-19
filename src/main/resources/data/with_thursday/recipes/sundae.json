@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "vanillarecipe:icecream"
+    }
+  ],
+  "result": {
+    "item": "with_thursday:sundae",
+    "count": 1
+  }
+}

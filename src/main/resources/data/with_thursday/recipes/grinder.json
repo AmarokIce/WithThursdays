@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "IGI",
+    "IRI"
+  ],
+  "key": {
+    "I":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "G":
+    {
+      "item": "minecraft:glass"
+    },
+    "R":
+    {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result":
+  {
+    "item": "with_thursday:grinder",
+    "count": 1
+  }
+}
