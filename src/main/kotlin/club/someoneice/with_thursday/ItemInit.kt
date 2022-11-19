@@ -76,18 +76,20 @@ object ItemInit {
     }
 
     private fun ToolItem(name: String) {
-        val set: Settings = Settings()
+        val set = Settings()
         set.group(ThursdayMain.CHICKEN_GROUP)
         set.maxCount(1)
         set.maxDamage(80)
-        Registry.register(Registry.ITEM, Identifier(ThursdayMain.modid, name), ItemToolBase(set))
+
+        registryItem(name, ItemToolBase(set))
     }
 
 
     private fun Item(name: String) {
         val set = Settings()
         set.group(ThursdayMain.CHICKEN_GROUP)
-        Registry.register(Registry.ITEM, Identifier(ThursdayMain.modid, name), Item(set))
+
+        registryItem(name, Item(set))
     }
 
     private fun ItemFood(name: String, hunger: Int, saturation: Float, wolf: Boolean, fast: Boolean, alwaysEat: Boolean) {
@@ -103,7 +105,7 @@ object ItemInit {
 
         set.food(builder.build())
 
-        Registry.register(Registry.ITEM, Identifier(ThursdayMain.modid, name), FoodBase(set, ItemStack(Blocks.AIR), UseAction.EAT))
+        registryItem(name, FoodBase(set, ItemStack(Blocks.AIR), UseAction.EAT))
     }
 
     private fun ItemFood(name: String, hunger: Int, saturation: Float, wolf: Boolean, fast: Boolean, alwaysEat: Boolean, useAction: UseAction) {
@@ -119,7 +121,7 @@ object ItemInit {
 
         set.food(builder.build())
 
-        Registry.register(Registry.ITEM, Identifier(ThursdayMain.modid, name), FoodBase(set, ItemStack(Blocks.AIR), useAction))
+        registryItem(name, FoodBase(set, ItemStack(Blocks.AIR), useAction))
     }
 
     private fun ItemFood(name: String, hunger: Int, saturation: Float, wolf: Boolean, fast: Boolean, alwaysEat: Boolean, item: ItemStack, useAction: UseAction) {
@@ -135,6 +137,10 @@ object ItemInit {
 
         set.food(builder.build())
 
-        Registry.register(Registry.ITEM, Identifier(ThursdayMain.modid, name), FoodBase(set, item, useAction))
+        registryItem(name, FoodBase(set, item, useAction))
+    }
+
+    private fun registryItem(name: String, itemType: Item) {
+        Registry.register(Registry.ITEM, Identifier(ThursdayMain.modid, name), itemType)
     }
 }
