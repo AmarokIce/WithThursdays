@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "ingredient" : {
-    "item" : "with_thursday:beaten_eggs"
-  },
-  "result": "with_thursday:sun_egg",
-  "experience": 0.5,
-  "cookingtime" : 200
-}

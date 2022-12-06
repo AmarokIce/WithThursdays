@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "ingredient" : {
-    "item" : "with_thursday:potato_chips"
-  },
-  "result": "with_thursday:french_fries",
-  "experience": 0.5,
-  "cookingtime" : 200
-}
