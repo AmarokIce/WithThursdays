@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:applejuiceitem"
+    },
+    {
+      "item": "pamhc2foodextended:pineapplejuiceitem"
+    },
+    {
+      "item": "pamhc2foodextended:limejuiceitem"
+    },
+    {
+      "item": "pamhc2foodextended:mangojuiceitem"
+    },
+    {
+      "item": "pamhc2foodextended:lemonjuiceitem"
+    },
+    {
+      "item": "pamhc2foodextended:grapefruitjuiceitem"
+    },
+    {
+      "item": "pamhc2foodextended:bananajuiceitem"
+    },
+    {
+      "item": "pamhc2foodextended:passionfruitjuiceitem"
+    },
+    {
+      "item": "pamhc2foodextended:papayajuiceitem"
+    }
+  ],
+  "result": {
+    "item": "with_thursday:nine_fruit_juice",
+    "count": 1
+  }
+}

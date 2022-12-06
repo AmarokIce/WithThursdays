@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+      {
+        "tags": "forge:seedCorn"
+      },
+      {
+        "tags": "forge:seedCorn"
+      },
+      {
+        "tags": "forge:seedCorn"
+      },
+      {
+        "tags": "forge:seedCorn"
+      },
+      {
+        "tags": "forge:seedCorn"
+      },
+      {
+        "tags": "forge:seedCorn"
+      },
+      {
+        "item": "minecraft:paper"
+      }
+    ],
+    "result": {
+      "item": "with_thursday:corn_salad",
+      "count": 1
+    }
+  }
